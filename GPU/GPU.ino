@@ -40,6 +40,7 @@ int get_address(int addr, int value_) {
 void updateScreen() {
   lcd.clear();
   lcd.setCursor(0, 0);
+  
   for (int i = 0; i < 32; i++) {
     if (i == 16) {
       lcd.setCursor(0, 1);
