@@ -43,6 +43,7 @@ void loop() {
           // Serial.println("Get");
           // Get the value from the specified memory address and send it back
           PC_Serial.println(get_address(row_2_int, row_3_int));
+          
         } else if (row_1_int == 2) {
           // If the command is to set a value
           // Serial.println("Set");
