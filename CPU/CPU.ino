@@ -292,11 +292,5 @@ void setup() {
 }
 
 void loop() {
-  // Serial.println(get_address(44));
-
-  // delay(5000);
-
-  // set_address(44, 69);
-
-  // delay(15000);
+  
 }
