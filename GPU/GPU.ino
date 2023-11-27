@@ -18,10 +18,10 @@ void setup() {
   lcd.backlight();
 
   lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("0123456789");
-  lcd.setCursor(0, 1);
-  lcd.print("0123456789");
+  // lcd.setCursor(0, 0);
+  // lcd.print("0123456789");
+  // lcd.setCursor(0, 1);
+  // lcd.print("0123456789");
 
   for (int i = 0; i < 32; i++) {
     memory[i] = -254;
